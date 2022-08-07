@@ -108,6 +108,10 @@ input {
     width: 50%;
 }
 
+input:focus::placeholder {
+    opacity: 0;
+}
+
 input[type=number]::-webkit-inner-spin-button { 
     -webkit-appearance: none;
 }
@@ -123,7 +127,6 @@ button {
      cursor: pointer;
      color: #FFF;
      font-family: "Montserrat";
-     transition: 0.2s;
 }
 
 button:hover {
