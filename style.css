@@ -56,7 +56,7 @@ header ul li {
 }
 
 main {    
-    height: 80%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,6 +140,24 @@ button:hover {
     color: rgb(93, 93, 93);    
 }
 
+footer {
+    background-color: #ffa3c4;
+    text-align: center;
+    color: rgb(93, 93, 93);
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(57, 57, 57);    
+}
+
+footer a:hover {
+    color: rgb(128, 128, 128);
+}
 
 @media screen and (max-width: 485px) {
     header {
